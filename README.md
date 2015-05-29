@@ -1,6 +1,6 @@
 #Experiment on Gravitational Frame of Reference
 
-###Krista Strother & Amanda Walker
+###Krista Strother & Partner
 
 ##Introduction
 
