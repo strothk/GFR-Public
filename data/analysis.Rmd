@@ -1,0 +1,43 @@
+#Data analyses and figure creation for the Gravitational Frame of Reference Experiment
+
+###Krista E. Strother & Amanda Walker
+
+##Introduction
+
+This file was used to analyze data from my
+[Gravitational Frame of Reference Experiment](https://www.youtube.com/watch?v=i9-Vqo_O--o).
+All materials including consent, experimental tasks, and debriefing can
+be accessed following the previous link and following the links embedded
+within the video.  
+
+These data represent observations from 38 participants who reported
+participating in existing conditions and emailed me their data. 1
+participant reported participating in condition B, but did not indicate
+which side the player passed the ball from the visualization task. Therefore,
+that participant was excluded.
+
+
+##Preparing data for analysis
+
+First we need to read in the data.
+
+```{r}
+d<-read.csv( "rawdat.csv")
+```
+
+
+Here is a table of the data.
+
+```{r}
+mytable<-table(d$Condition,d$Side)
+mytable
+```
+Now we'll use a chi-squared test to determine whether the side of the body (left or right) participants layed on, was independent from their gravitational visualization results.
+```{r}
+chisq.test(d$Condition,d$Side)
+```
+
+This test shows no relationship between condition and side, chi squared(1) = 0, p = 1.
+
+#Summary
+There has been conflicting research regarding the gravitational influence on visual perception. The current research is in line with research which shows no relationship between those two variables. 
