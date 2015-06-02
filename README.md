@@ -20,19 +20,13 @@ world example. The data come from my
     * code books that explain the data in the data files.
     * analysis files
         * analysis.Rmd: An R Markdown file that walks through my data analyses and creates the figure I used in my poster.
-        * analysis.R: An R script that does everything analysis.Rmd does without the markdown. Choose your poison.
-    * fig1.png: The figure I created for the presentation
 * **materials**: a folder containing materials used in the experiments. To minimize the size of this repository, many files used to create the videos are missing, but the end products can be found in the above link to the experiment.
     * WLMP files: The Movie Maker files I used to create the consent and experimental conditions.
-    * A blend file: The Blender file I used to create the debriefing.
-    * pptx presentation files: The PowerPoint files I used for the
-    experimental conditions and debriefing.
-* **presentation**: A folder containing the presentation materials that includes:
-    * APS 2015.pdf: A pdf of the poster used for printing and distribution.
-    * APS 2015.ppts: A presentation file used to create the poster.
-    * README.md: A markdown file linked to a 
-    [video walkthrough](https://) of the presentation.
+    * Images used for the poster
+    * A copy of the written Introduction, methods and IRB application information.
+    * A link to the You Tube experiment.
+* **presentation**: A folder containing the presentation poster.
 
 Cheers,
 
-Krista & Amanda
+Krista & Partner
